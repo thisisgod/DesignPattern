@@ -1,0 +1,4 @@
+- enum은 리플렉션 코드를 만들 수 없기 때문에, 리플렉션을 방어할 수 있다.
+- enum 안에 있는 instance 가 유일한 instance가 됨
+- 단점은 클래스를 로딩하는 순간 enum 인스턴스 자체가 만들어지기 때문에 eager initialization 과 같은 문제에 직면
+- enum은 또한 직렬화, 역직렬화에 안전함
